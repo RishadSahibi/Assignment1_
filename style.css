@@ -1,0 +1,240 @@
+/*
+Constrain images and videos to the parent width and preserve their intrinsic aspect ratio. (https://github.com/mozdevs/cssremedy/issues/14)
+*/
+img,
+video {
+  max-width: 100%;
+  height: auto;
+}
+/* Makes elements with the HTML hidden attribute stay hidden by default */
+[hidden] {
+  display: none;
+}
+/* Set the background color of the body to a dark shade and define the font family */
+body {
+  background-color: #131313;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+        Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+}
+/* Fix the element's position relative to the viewport */
+.fixed {
+  position: fixed;
+}
+/* Position the element at the top of the viewport */
+.top-0 {
+  top: 0px;
+}
+/* Center the element horizontally */
+.mx-auto {
+  margin-left: auto;
+  margin-right: auto;
+}
+/* Set vertical margins to 1rem */
+.my-4 {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+/* Set bottom margin to 0.25rem */
+.mb-1 {
+  margin-bottom: 0.25rem;
+}
+/* Set bottom margin to 3.5rem */
+.mb-14 {
+  margin-bottom: 3.5rem;
+}
+/* Set left margin to 5rem */
+.ml-20 {
+  margin-left: 5rem;
+}
+/* Set top margin to 0.25rem */
+.mt-1 {
+  margin-top: 0.25rem;
+}
+/* Set top margin to 2.5rem */
+.mt-10 {
+  margin-top: 2.5rem;
+}
+/* Set top margin to 5rem */
+.mt-20 {
+  margin-top: 5rem;
+}
+/* Set top margin to 6rem */
+.mt-24 {
+  margin-top: 6rem;
+}
+/* Set top margin to 0.75rem */
+.mt-3 {
+  margin-top: 0.75rem;
+}
+/* Set top margin to 1rem */
+.mt-4 {
+  margin-top: 1rem;
+}
+/* Set top margin to 1.25rem */
+.mt-5 {
+  margin-top: 1.25rem;
+}
+/* Set top margin to 2rem */
+.mt-8 {
+  margin-top: 2rem;
+}
+/* Set display to flex */
+.flex {
+  display: flex;
+}
+/* Set display to grid */
+.grid {
+  display: grid;
+}
+/* Set height to 2.5rem */
+.h-10 {
+  height: 2.5rem;
+}
+/* Set height to 3rem */
+.h-12 {
+  height: 3rem;
+}
+/* Set height to 5rem */
+.h-20 {
+  height: 5rem;
+}
+/* Set height to 6rem */
+.h-24 {
+  height: 6rem;
+}
+/* Set height to 24rem */
+.h-96 {
+  height: 24rem;
+}
+/* Set height to 400px */
+.h-\[400px\] {
+  height: 400px;
+}
+/* Set width to 2.5rem */
+.w-10 {
+  width: 2.5rem;
+}
+/* Set width to 5rem */
+.w-20 {
+  width: 5rem;
+}
+/* Set width to 7rem */
+.w-28 {
+  width: 7rem;
+}
+/* Set width to 20rem */
+.w-80 {
+  width: 20rem;
+}
+/* Set width to 350px */
+.w-\[350px\] {
+  width: 350px;
+}
+/* Set width to 80% */
+.w-\[80\%\] {
+  width: 80%;
+}
+/* Set width to 100% */
+.w-full {
+  width: 100%;
+}
+/* Set max-width to 72rem */
+.max-w-6xl {
+  max-width: 72rem;
+}
+/* Define a grid layout with 3 equal columns */
+.grid-cols-3 {
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+}
+/* Set flex direction to column */
+.flex-col {
+  flex-direction: column;
+}
+/* Align items to the start */
+.items-start {
+  align-items: flex-start;
+}
+/* Align items to the center */
+.items-center {
+  align-items: center;
+}
+/* Justify content to the center */
+.justify-center {
+  justify-content: center;
+}
+/* Justify content with space between */
+.justify-between {
+  justify-content: space-between;
+}
+/* Justify content with space evenly */
+.justify-evenly {
+  justify-content: space-evenly;
+}
+/* Set gap between elements to 0.25rem */
+.gap-1 {
+  gap: 0.25rem;
+}
+/* Set gap between elements to 2.5rem */
+.gap-10 {
+  gap: 2.5rem;
+}
+/* Set gap between elements to 0.5rem */
+.gap-2 {
+  gap: 0.5rem;
+}
+/* Set gap between elements to 0.75rem */
+.gap-3 {
+  gap: 0.75rem;
+}
+/* Set gap between elements to 1.5rem */
+.gap-6 {
+  gap: 1.5rem;
+}
+/* Set gap between elements to 2rem */
+.gap-8 {
+  gap: 2rem;
+}
+/* Set gap between elements to 12rem */
+.gap-48 {
+  gap: 12rem;
+}
+/* Set column gap to 2.5rem */
+.gap-x-10 {
+  -moz-column-gap: 2.5rem;
+       column-gap: 2.5rem;
+}
+/* Set row gap to 1.5rem */
+.gap-y-6 {
+  row-gap: 1.5rem;
+}
+/* Set vertical spacing between elements to 1rem */
+.space-y-4 > :not([hidden]) ~ :not([hidden]) {
+  --tw-space-y-reverse: 0;
+  margin-top: calc(1rem * calc(1 - var(--tw-space-y-reverse)));
+  margin-bottom: calc(1rem * var(--tw-space-y-reverse));
+}
+/* Set border radius to 0.25rem */
+.rounded {
+  border-radius: 0.25rem;
+}
+/* Set border radius to 0.5rem */
+.rounded-lg {
+  border-radius: 0.5rem;
+}
+/* Set border radius to 0.75rem */
+.rounded-xl {
+  border-radius: 0.75rem;
+}
+/* Set top border radius to 0.75rem */
+.rounded-t-xl {
+  border-top-left-radius: 0.75rem;
+  border-top-right-radius: 0.75rem;
+}
+/* Set top border width to 1px */
+.border-t {
+  border-top-width: 1px;
+}
+/* Set background size to contain */
+.bg-contain {
+  background-size: contain;
+}
