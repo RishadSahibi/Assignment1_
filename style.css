@@ -238,3 +238,164 @@ body {
 .bg-contain {
   background-size: contain;
 }
+/* Set background position to right */
+.bg-right {
+  background-position: right;
+}
+/* Set background to not repeat */
+.bg-no-repeat {
+  background-repeat: no-repeat;
+}
+/* Set horizontal padding to 0.5rem */
+.px-2 {
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+}
+/* Set horizontal padding to 0.75rem */
+.px-3 {
+  padding-left: 0.75rem;
+  padding-right: 0.75rem;
+}
+/* Set horizontal padding to 1rem */
+.px-4 {
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+/* Set horizontal padding to 1.25rem */
+.px-5 {
+  padding-left: 1.25rem;
+  padding-right: 1.25rem;
+}
+/* Set horizontal padding to 2rem */
+.px-8 {
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+/* Set vertical padding to 0.25rem */
+.py-1 {
+  padding-top: 0.25rem;
+  padding-bottom: 0.25rem;
+}
+/* Set vertical padding to 2.5rem */
+.py-10 {
+  padding-top: 2.5rem;
+  padding-bottom: 2.5rem;
+}
+/* Set vertical padding to 3.5rem */
+.py-14 {
+  padding-top: 3.5rem;
+  padding-bottom: 3.5rem;
+}
+/* Set vertical padding to 0.5rem */
+.py-2 {
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+}
+/* Set vertical padding to 6rem */
+.py-24 {
+  padding-top: 6rem;
+  padding-bottom: 6rem;
+}
+/* Set vertical padding to 0.75rem */
+.py-3 {
+  padding-top: 0.75rem;
+  padding-bottom: 0.75rem;
+}
+/* Set vertical padding to 5px */
+.py-\[5px\] {
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+/* Set bottom padding to 9rem */
+.pb-36 {
+  padding-bottom: 9rem;
+}
+/* Set left padding to 0.5rem */
+.pl-2 {
+  padding-left: 0.5rem;
+}
+/* Set top padding to 6rem */
+.pt-24 {
+  padding-top: 6rem;
+}
+/* Set top padding to 11rem */
+.pt-44 {
+  padding-top: 11rem;
+}
+/* Center text */
+.text-center {
+  text-align: center;
+}
+/* Set font size to 1.5rem and line height to 2rem */
+.text-2xl {
+  font-size: 1.5rem;
+  line-height: 2rem;
+}
+/* Set font size to 2.25rem and line height to 2 */
+.text-4xl {
+  font-size: 2.25rem;
+  line-height: 2.5rem;
+}
+/* Set font size to 2.25rem and line height to 2.5rem */
+.text-4xl {
+  font-size: 2.25rem;
+  line-height: 2.5rem;
+}
+/* Set font size to 3rem and line height to 1 */
+.text-5xl {
+  font-size: 3rem;
+  line-height: 1;
+}
+/* Set font size to 1.125rem and line height to 1.75rem */
+.text-lg {
+  font-size: 1.125rem;
+  line-height: 1.75rem;
+}
+/* Set font size to 1.25rem and line height to 1.75rem */
+.text-xl {
+  font-size: 1.25rem;
+  line-height: 1.75rem;
+}
+/* Set font weight to bold (700) */
+.font-bold {
+  font-weight: 700;
+}
+/* Set font weight to medium (500) */
+.font-medium {
+  font-weight: 500;
+}
+/* Set font weight to semi-bold (600) */
+.font-semibold {
+  font-weight: 600;
+}
+/* Set text color to indigo (600) */
+.text-indigo-600 {
+  --tw-text-opacity: 1;
+  color: rgb(79 70 229 / var(--tw-text-opacity));
+}
+/* Set text color to white */
+.text-white {
+  --tw-text-opacity: 1;
+  color: rgb(255 255 255 / var(--tw-text-opacity));
+}
+/* Applying extra-large shadow */
+.shadow-xl {
+  --tw-shadow: 0 20px 25px -5px rgb(0 0 0 / 0.1), 0 8px 10px -6px rgb(0 0 0 / 0.1);
+  --tw-shadow-colored: 0 20px 25px -5px var(--tw-shadow-color), 0 8px 10px -6px var(--tw-shadow-color);
+  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+}
+/* Set font weight to bold on hover */
+.hover\:font-bold:hover {
+  font-weight: 700;
+}
+/* Set text color to indigo (600) on hover */
+.hover\:text-indigo-600:hover {
+  --tw-text-opacity: 1;
+  color: rgb(79 70 229 / var(--tw-text-opacity));
+}
+/* Apply a 2px ring on hover */
+.hover\:ring-2:hover {
+  --tw-ring-offset-shadow: var(--tw-ring-inset) 0 0 0 var(--tw-ring-offset-width) var(--tw-ring-offset-color);
+  --tw-ring-shadow: var(--tw-ring-inset) 0 0 0 calc(2px + var(--tw-ring-offset-width)) var(--tw-ring-color);
+  box-shadow: var(--tw-ring-offset-shadow), var(--tw-ring-shadow), var(--tw-shadow, 0 0 #0000);
+}
